@@ -37,3 +37,13 @@ git push
 # Сылки :
 ### Git :
 [git-scm.com](https://git-scm.com/)
+### SublimeText 3
+[sublimetext.com](https://www.sublimetext.com/3)
+
+# Технологии :
+### БЭМ методология :
+[bem.info](https://ru.bem.info/methodology/)
+
+# Ресурсы :
+### Шрифты :
+[fonts.google](https://fonts.google.com/)
