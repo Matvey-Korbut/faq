@@ -1,4 +1,4 @@
-var catNames = ['Pushok', 'Alex', 'Bruno' , 'Cliff ' ];
+var catNames = ['Pushok', 'Alex', 'Bruno' , 'Cliff' ];
  var catColors = [ 'black', 'orange', 'pink', 'purple'];
  
 
