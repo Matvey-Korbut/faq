@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #0249c2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Landing{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+
+.Landing__section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Landing__section_blue{
+    background-color: #0f1211;
+    color: #0dbae1;
+}
+
+
+.section{
+    width: 940px;
+    padding: 56px 0 56px 0;
+
+}
+
+
+.section_title{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.section_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+
+.header_logotype{
+   width: 100px;
+   height: 100px;
+
+}
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}   
+
+.menu_link{
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 24px;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .25s;
+}
+
+.menu_link:hover{
+    opacity: 1;
+}
+
+.section_slider{
+    margin-top: 26px;
+
+}
+
+.slider_content{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.slider_info{
+
+
+}
+
+.slider_text{
+    font-size: 64px ;
+    font-weight: 900;
+    margin-bottom: 32px;
+
+}
+
+.slider_button{
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 900;
+    padding: 16px 24px;
+    border-radius: 7px;
+    background-color: white;
+    color: #0249c2;
+    cursor: pointer;
+
+}
+
+.slider_image{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row
+}
+
+.Landing_section_image{
+    background-image: url(images/images/background_image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    
+
+}
+
+.Section__content{
+    margin-top: 32px;
+    background-position: center;
+
+
+
+}
+
+.Content_text{
+    font-size: 20px;
+
+}
+
+
+
+.Content__list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+
+
+.List__element{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Element__img{
+}
+
+.Element__img img{
+    border-radius: 20px;
+}
+
+.Element__title{
+    padding: 0,16;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Element__info{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.tab{
+    height: 150px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.tab_title_1{
+    
+    background-color: white;
+    height: 70px;
+    width: 500px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.tab_title_2{
+
+}
+
+
+.Card_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.top_title{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0249c2;    
+}
+
+.bottom_title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #0249c2
+
+}
+.carp_p{
+    font-size: 25px;
+}
+
+.Card_image{
+    margin-top: -25%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
