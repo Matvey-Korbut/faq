@@ -1,0 +1,6 @@
+CREATE TABLE cats (
+	"id" bigserial PRIMARY KEY,
+	"name" varchar NOT NULL,
+	"is_stripe" boolean DEFAULT false,
+	"color" varchar
+)

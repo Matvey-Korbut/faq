@@ -1,0 +1,6 @@
+CREATE TABLE dogs (
+	"id" bigserial PRIMARY KEY,
+	"name" varchar NOT NULL,
+	"is_spotted" boolean DEFAULT false,
+	"breed" varchar
+	)
